@@ -12,7 +12,7 @@ function get_network_orders_for_user($user_id) {
         $orders = array_merge($orders, $user_orders);
 
         restore_current_blog();
-        
+         
     }
 
     return $orders;
